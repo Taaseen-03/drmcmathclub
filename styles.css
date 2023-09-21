@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    background-color: rgb(33, 26, 44);
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*************Preloader**************/
+#preloader{
+    background: #36003b url(preloader.gif) no-repeat center center;
+    background-size: 7%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+/*************Home**************/
+#home{
+    background: url(bg-img/home-bg.webp);
+    height: 100%;
+    width: 100%;
+}
